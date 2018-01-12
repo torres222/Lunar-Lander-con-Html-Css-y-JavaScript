@@ -1,0 +1,62 @@
+﻿   <!DOCTYPE html>
+<html>
+<head>
+<!--descripción-->
+ <title> Lunar Lander!! - LMSGI02 José Torné</title>
+ <meta name="description" content="">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--estilo para movil o pc dependiendo de la resolución de pantalla, hasta 957px movil, mas de 958px pc-->
+ <link rel='stylesheet' media='screen and (min-width: 720px)' href='css/pc.css'>
+ <link rel='stylesheet' media='screen and (max-width: 720px)' href='css/mob.css'>
+ <!--SCRIPT-->
+ <script src="js/js2.js"></script>
+ 
+ 
+</head>
+<body>
+<!--marcadores de combustible, velocidad y altura-->
+ <div id="nave">
+ <img src="img/nave.png" id="imgNave" alt="img nave">
+ </div>
+ <div class="a">
+ <div id="showm">show menu</div>
+ <ul id="cpanel">
+  <li><img src="img/speed.png" alt="speed">Vel. <span id="velocidad">100</span> </li>
+  <li><img src="img/fuel.png" alt="fuel">Gas <span id="fuel">100</span> </li>
+  <li><img src="img/altura.jpg" alt="altura">Alt. <span id="altura">70</span> </li>
+ </ul>
+ </div><div class="b">
+ 
+<!--Reaccion al ganar o perder partida-->
+<img src="img/confeti.gif" id="confeti" alt="confeti">
+<img src="img/win.png" id="win" alt="win">
+<img src="img/loose.png" id="loose" alt="loose">
+
+
+
+ </div><div class="c">
+
+ <div id="hidem" class="sidenav">hide menu</div>
+ 
+  <!--menú-->
+ <ul id="menu">
+  <li><img src="img/pausa.png" alt="pausa" id="pausa" onclick="pausar()"><img src="img/play.png" onclick="play()" alt="play" id="reanudar">
+  <img src="img/reiniciar.png" alt="reiniciar" onclick="reload()" id="reiniciar" ><a href="info.html"><img src="img/info.png"
+  alt="info"></a></li>
+ </ul>
+<!--fondo de la tierra añadido como html-->
+  <img src="img/tierra.png" id="tierra" alt="tierra">
+
+ </div>
+ <div class="d"></div>
+ 
+ 
+ 
+<!--sonido con loop-->
+<audio src="./audio/jtheme.mp3" autoplay loop></audio>
+ 
+ 
+ 
+ 
+</body>
+</html>

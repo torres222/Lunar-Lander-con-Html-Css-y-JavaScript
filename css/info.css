@@ -1,0 +1,20 @@
+/* estilo fuentes para info*/
+#info{
+  font-family: "Times New Roman", Times, serif;
+  padding: 2%;
+}
+/* estilo fuentes para acerca*/
+#acerca{
+  font-family: "Times New Roman", Times, serif;
+  padding: 2%;
+}
+
+
+/* estilo para body con su imagen del fondo espacial*/
+body{
+  background-image: url("../img/fondo.png");  margin-left: auto;
+  margin-right: auto;width: 98%;
+  position: relative;
+  top: 0;
+  text-align: center;
+}

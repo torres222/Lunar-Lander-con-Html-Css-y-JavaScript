@@ -1,0 +1,67 @@
+/*estilo para espacios a,b,c,d con sus imagenes de fondo y posición de nave, panel de control*/
+body,html{height:100%;padding:0px;margin:0px;text-indent:1px;}
+.c{display:block !important}
+.a,.b,.c{background-image:url("../img/fondo.jpg");display:inline-block;width:33.33%;height:100%;float:left;}
+.d{background-image:url("../img/luna.jpg");height:10%;width:100%;position:fixed;bottom:0px;}
+#nave{text-align:center;position:fixed;top:10%;width:100%;height:20%}
+#nave img{height:100%;}
+#cpanel{padding: 6%;color:white;vertical-align: middle;}
+#cpanel ul li{display: inline-block;vertical-align: middle;text-align: center; list-style-position: inside;margin: 0;padding: 0;}
+#cpanel img{padding-right: 3%;width:22%;}
+#hidem,#showm{display:none}
+
+
+/*estilo para menu*/
+#menu img{
+  width: 50%;
+  position: relative;
+  top: 0;
+}
+
+
+
+
+/*estilo para alineación imagen tierra*/
+#tierra{
+  width: 25%;
+  margin-top: 17%;
+  margin-left: 7%;
+  position: fixed;
+}
+
+
+
+/*botones*/
+#reanudar{
+  display: none;
+}
+
+#reiniciar{
+  display: inline-block;
+}
+
+
+
+
+/*sonido de fondo*/
+  audio { display: none;
+  }
+  
+  
+  #confeti{
+  display: none;
+}
+
+
+/*resultados*/
+#win{
+  width: 100%;
+  margin-top: 2%;
+  display: none;
+}
+
+#loose{
+  width: 100%;
+  margin-top: 50%;
+  display: none;
+}
