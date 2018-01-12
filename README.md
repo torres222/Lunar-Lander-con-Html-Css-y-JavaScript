@@ -7,7 +7,7 @@
 HTML / CSS 
 
 Enlace Rawgit :
-https://rawgit.com/xxxxxxxxxxxxxxxxxxx/index.html
+https://rawgit.com/torres222/Lunar-Lander-con-Html-Css-y-JavaScript/master/index.html
 
 *Se ha colocado un panel informativo en la parte superior izquierda con el cual obtendremos información de parametros como combustible, altura y velocidad de la astronave. 
 
