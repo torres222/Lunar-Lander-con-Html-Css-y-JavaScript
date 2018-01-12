@@ -4,7 +4,7 @@
 
 *Repositorio del proyecto Lunar Lander para Lenguaje de Marcas 
 
-HTML / CSS 
+HTML / CSS / JS
 
 Enlace Rawgit :
 https://rawgit.com/torres222/Lunar-Lander-con-Html-Css-y-JavaScript/master/index.html
